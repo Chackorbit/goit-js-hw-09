@@ -17,6 +17,23 @@ img {
   max-width: 100%;
 }
 
+button:disabled {
+  cursor: auto;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.datetime {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
 .timer {
   display: flex;
   justify-content: center;
